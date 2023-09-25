@@ -5,7 +5,7 @@ Web Programming
 
 1. Account Setup:
 - [ ] Demonstrates the ability to create a GitHub account (and a repository).
-- [X] Add a README
+- [X] Add a README (14.9.23)
 - [ ] Add/remove various files/folders (.jpg, .gif, .png, .txt, .html).
 
 2. Repository Basics:

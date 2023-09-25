@@ -1,11 +1,8 @@
-# F28WP
-Web Programming
-
 # Checklist
 
 1. Account Setup:
 - [ ] Demonstrates the ability to create a GitHub account (and a repository).
-- [X] Add a README (_14.09.23_)
+- [X] Add a README _(14.09.23)_
 - [ ] Add/remove various files/folders (.jpg, .gif, .png, .txt, .html).
 
 2. Repository Basics:

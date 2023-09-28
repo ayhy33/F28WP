@@ -12,3 +12,5 @@ function print_current_page()
   window.print();
 }
 
+/* Write a JavaScript program to get the current date */
+

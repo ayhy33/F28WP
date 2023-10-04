@@ -1,4 +1,4 @@
-/* SINGLE-LINE COMMENT */
+<! SINGLE-LINE COMMENT >
 <html>
 <head>
 <style>
@@ -19,7 +19,7 @@ p {
 </body>
 </html>
 
-/* can add comments wherever I want */
+<! CAN ADD COMMENTS WHEREVER I WANT >
 <html>
 <head>
 <style>
@@ -40,7 +40,7 @@ p{
 </html>
 
 
-/* comments can span multiple lines */
+<! COMMENTS CAN SPAN MULTIPLE LINES >
 <html>
 <head>
 <style>
@@ -80,9 +80,9 @@ p {
 <h2> My Heading </h2>
 
 <!-- These paragraphs will be red -->
-<p>Hello World!</p>
-<p>This paragraph is styled with CSS.</p>
-<p>HTML and CSS comments are not shown in the output.</p>
+<p> Hello World!</p>
+<p> This paragraph is styled with CSS.</p>
+<p> HTML and CSS comments are not shown in the output.</p>
 
 </body>
 </html>

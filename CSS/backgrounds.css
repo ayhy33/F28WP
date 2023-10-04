@@ -58,7 +58,7 @@ p {
 </body>
 </html>
 
-<! BACKGROUND REPEAT VERTICALLY >
+<! BACKGROUND REPEATS VERTICALLY >
 <html>
 <head>
 <style>
@@ -77,7 +77,7 @@ body {
 </body>
 </html>
 
-<! BACKGROUND REPEAT HORIZONTALLY >
+<! BACKGROUND REPEATS HORIZONTALLY >
 <html>
 <head>
 <style>
@@ -96,3 +96,48 @@ body{
 
 </body>
 </html>
+
+<! BACKGROUND IS SHOWN ONCE >
+<html>
+<head>
+<style>
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+
+</style>
+</head>
+<body>
+
+<h1> Hello World! </h1>
+<p> W3Schools background image example. </p>
+<p> The background image only shows once, but it is disturbing the reader! </p>
+
+</body>
+</html>
+
+<! BACKGROUND IN A SPECIFIC POSITION >
+<html>
+<head>
+<style>
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+}
+
+</style>
+</head>
+<body>
+
+<h1> Hello World!</h1>
+<p> Here, the background image is only shown once. In addition it is positioned away from the text. </p>
+<p> In this example we have also added a margin on the right side, so that the background image will not disturb the text. </p>
+
+</body>
+</html>
+}

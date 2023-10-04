@@ -60,3 +60,21 @@ p{
 
 </body>
 </html>
+
+
+<! CLASS SELECTOR >
+<! SPECIFIC ELEMENTS AFFECTED BY A CLASS >
+<html>
+<head>
+<style>
+
+p.center {
+  text-align: center;
+  color: red;
+}
+
+</style>
+</head>
+<body>
+
+<h1

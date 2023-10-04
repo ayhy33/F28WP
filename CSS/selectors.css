@@ -1,4 +1,4 @@
-<! ELEMENT SELECTOR>
+<! ELEMENT SELECTOR >
 <html>
 <head>
 <style>
@@ -20,7 +20,7 @@ p{
 </html>
 
 
-<! ID SELECTOR>
+<! ID SELECTOR >
 <html>
 <head>
 <style>
@@ -36,6 +36,27 @@ p{
 
 <p id = "para1"> Hello World! </p>
 <p> This paragraph is not affected by the style. </p>
+
+</body>
+</html>
+
+
+<! CLASS SELECTOR >
+<html>
+<head>
+<style>
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+</style>
+</head>
+<body>
+
+<h1 class = "center"> Red and center-aligned heading </h1>
+<p class = "center"> Red and center-aligned paragraph. </p>
 
 </body>
 </html>

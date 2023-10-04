@@ -58,6 +58,7 @@ p {
 </body>
 </html>
 
+
 <! BACKGROUND REPEATS VERTICALLY >
 <html>
 <head>
@@ -141,3 +142,121 @@ body {
 </body>
 </html>
 }
+
+
+<! BACKGROUND IMAGE IS FIXED >
+<html>
+<head>
+<style>
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+
+</style>
+</head>
+<body>
+
+<h1> The Background-Attachment Property </h1>
+<p> The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page). </p>
+<p> <strong>Tip:</strong> If you do not see any scrollbars, try to resize the browser window. </p>
+
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+
+</body>
+</html>
+
+<! BACKGROUND IMAGE SCROLL WITH THE REST OF PAGE >
+<html>
+<head>
+<style>
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: scroll;
+}
+
+</style>
+</head>
+<body>
+
+<h1> The Background-Attachment Property </h1>
+<p> The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page). </p>
+<p> <strong>Tip:</strong> If you do not see any scrollbars, try to resize the browser window. </p>
+
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+
+</body>
+</html>
+
+
+<! BACKGROUND SHORTHAND >
+<html>
+<head>
+<style>
+
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+  margin-right: 200px;
+}
+
+</style>
+</head>
+<body>
+
+<h1> The background Property </h1>
+<p> The background property is a shorthand property for specifying all the background properties in one declaration. </p>
+<p> Here, the background image is only shown once, and it is also positioned in the top-right corner. </p>
+<p> We have also added a right margin, so that the text will not write over the background image. </p>
+
+</body>
+</html>

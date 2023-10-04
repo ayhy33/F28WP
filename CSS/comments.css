@@ -1,1 +1,65 @@
+/* SINGLE-LINE COMMENT */
+<html>
+<head>
+<style>
+
+/* This is a single-line comment */
+p {
+  color: red;
+}
+
+</style>
+</head>
+<body>
+
+<p> Hello World! </p>
+<p> This paragraph is styled with CSS. </p>
+<p> CSS comments are not shown in the output. </p>
+
+</body>
+</html>
+
+/* can add comments wherever I want */
+<html>
+<head>
+<style>
+
+p{
+  color: red; /* Set text color to red */
+}
+
+</style>
+</head>
+<body>
+
+<p> Hello World! </p>
+<p> This paragraph is styled with CSS. </p>
+<p> CSS comments are not shown in the output. </p>
+
+</body>
+</html>
+
+
+/* comments can span multiple lines */
+<html>
+<head>
+<style>
+
+/* This is
+a multi-line
+comment */
+p{
+  color: red; /* Set text color to red */
+}
+
+</style>
+</head>
+<body>
+
+<p> Hello World! </p>
+<p> This paragraph is styled with CSS. </p>
+<p> CSS comments are not shown in the output. </p>
+
+</body>
+</html>
 

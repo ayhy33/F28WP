@@ -1,4 +1,5 @@
 <! DOCTYPE html >
+<! BACKGROUND COLOR >
 <html>
 <head>
 <style>
@@ -14,6 +15,64 @@ body {
 <h1> Hello World! </h1>
 
 <p> This page has a light blue background color! </p>
+
+</body>
+</html>
+
+
+<! BACKGROUND IMAGE >
+<html>
+<head>
+<style>
+
+body {
+  background-image: url("paper.gif");
+}
+
+</style>
+</head>
+<body>
+
+<h1> Hello World! <h1>
+<p> This page has an image as the background! </p>
+
+</body>
+</html>
+
+<! BACKGROUND IMAGE FOR SPECIFIC PARAGRAPH >
+<html>
+<head>
+<style>
+
+p {
+  background-image: url("paper.gif");
+}
+
+</style>
+</head>
+<body>
+
+<h1> Hello World! </h1>
+<p> This paragraph has an image as the background! </p>
+
+</body>
+</html>
+
+<! BACKGROUND REPEAT VERTICALLY >
+<html>
+<head>
+<style>
+
+body {
+  background-image: url("gradient_bg.png");
+}
+
+</style>
+</head>
+<body>
+
+<h1> Hello World! </h1>
+<p> Strange background image...</p>
 
 </body>
 </html>

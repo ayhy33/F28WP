@@ -66,6 +66,7 @@ p {
 
 body {
   background-image: url("gradient_bg.png");
+  background-repeat: repeat-y;
 }
 
 </style>

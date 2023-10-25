@@ -51,12 +51,14 @@
     
     <h2> Getting Parent HTML Element </h2>
     
-    <p id="id01"> Hello World! </p>
-    <p id="id02"> Hello Sweden! </p>
+    <p id="01"> Hello World! </p>
+    <p id="02"> Hello Sweden! </p>
+
+    <p id = "demo"></p>
     
     <script>
       $(document).ready(function() {
-        $("#id02").remove();
+        $("#demo").text($("#02").parent().prop("nodeName"));
       });
     </script>
   

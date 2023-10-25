@@ -44,3 +44,29 @@
     
   </body>
 </html>
+
+<!-- FINDING HTML ELEMENTS BY TAG NAME -->
+<!-- JQUERY -->
+<html>
+  <head>
+    <script 
+      src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+  </head>
+  <body>
+
+    <h2> Finding HTML Elements by id </h2>
+    <p id = "id01"> Hello World! </p>
+    <p id = "id02"> Hello Sweden! </p>
+    <p id = "id03"> Hello Japan! </p>
+
+    <p id = "demo"></p>
+
+    <script>
+      $(document).ready(function() {
+        var myElements = $("p");
+        $("#demo").text("The text in the first paragraph is: " + myElements[0].innerHTML);
+    </script>
+
+  </body>
+</html>

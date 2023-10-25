@@ -11,8 +11,8 @@
     
     <h2> Remove an HTML Element </h2>
     
-    <p id="id01">Hello World!</p>
-    <p id="id02">Hello Sweden!</p>
+    <p id="id01"> Hello World! </p>
+    <p id="id02"> Hello Sweden! </p>
     
     <script>
       $(document).ready(function() {
@@ -34,6 +34,30 @@
     
     <script>
       document.getElementById("id02").remove();
+    </script>
+  
+  </body>
+</html>
+
+<!-- GET PARENT ELEMENT -->
+<!-- JQUERY -->
+<html>
+  <head>
+    <script 
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+  </head>
+  <body>
+    
+    <h2> Getting Parent HTML Element </h2>
+    
+    <p id="id01"> Hello World! </p>
+    <p id="id02"> Hello Sweden! </p>
+    
+    <script>
+      $(document).ready(function() {
+        $("#id02").remove();
+      });
     </script>
   
   </body>

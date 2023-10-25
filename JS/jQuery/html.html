@@ -99,22 +99,21 @@
   </head>
   <body>
 
-    <h2> Setting Text Content </h2>
+    <h2> Set HTML </h2>
     
-    <p id="01"> Hello World! </p>
-    <p id="02"> Hello Sweden! </p>
+    <div id="01"><p> Hello World! </p></div>
+    <div id="02"><p> Hello Sweden! </p></div>
+
+    <p id = "demo"></p>
 
     <script>
       $(document).ready(function() {
-        var myElement = $("#01");
-        myElement.text("Hello Sweden!");
+        $("#02").html("<p> Hello World! </p>");
       });
     </script>
     
   </body>
 </html>
-
-
 
 <!-- JAVASCRIPT -->
 

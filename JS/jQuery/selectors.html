@@ -1,4 +1,5 @@
 <! DOCTYPE html >
+<!-- JQUERY -->
 <html>
   <head>
     <script 
@@ -21,5 +22,24 @@
       });
     </script>
   
+  </body>
+</html>
+
+<!-- JAVASCRIPT -->
+<html>
+  <body>
+
+    <h2> Finding HTML Elements by id </h2>
+    <p id = "id01"> Hello World! </p>
+    <p id = "id02"> Hello Sweden! </p>
+    <p id = "id03"> Hello Japan! </p>
+
+    <p id = "demo"></p>
+
+    <script>
+      const myElement = document.getElementById("id01");
+      document.getElementById("demo").innerHTML = "The text from the id01 paragraph is: " + myElement.innerHTML;
+    </script>
+    
   </body>
 </html>

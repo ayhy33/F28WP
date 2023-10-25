@@ -1,0 +1,6 @@
+// A page can't be manipulayed safely until the document is "ready".
+
+// A $(document).ready() block
+$(document).ready(function(){
+console.log("ready!");
+});

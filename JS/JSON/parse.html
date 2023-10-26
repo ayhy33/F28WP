@@ -14,3 +14,20 @@
     
   </body>
 </html>
+
+<!-- ARRAY AS JSON -->
+<html>
+  <body>
+
+    <h2> Parsing a JSON Array </h2>
+    <p> Data written as an JSON array will be parsed into a JAVAScript array. </p>
+    <p id = "demo"></p>
+
+    <script>
+      const text = '["Ford", "BMW", "Audi", "FIat"]'
+      const myArr = JSON.parse(text);
+      document.getElementById("demo").innerHTML = myArr[0];
+    </script>
+    
+  </body>
+</html>

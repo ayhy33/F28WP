@@ -6,8 +6,8 @@
 - [ ] Add/remove various files/folders (.jpg, .gif, .png, .txt, .html).
 
 2. Repository Basics:
-- [ ] Can create a new repository on GitHub.
-- [ ] Understands the purpose of a README file.
+- [X] Can create a new repository on GitHub.
+- [X] Understands the purpose of a README file.
 - [ ] Knows how to initialize a repository with a README.
 - [ ] Can describe the importance of .gitignore files.
 

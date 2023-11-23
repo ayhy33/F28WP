@@ -11,3 +11,8 @@ console.log("Program Ended");
 
 /* Run the main.js to see the result */
 $ node main.js
+
+/* Verify the output */
+Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+Program Ended

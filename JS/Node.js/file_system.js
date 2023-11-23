@@ -68,10 +68,10 @@ fs.stat('input.txt', function (err, stats) {
   console.log("isDirectory ? " + stats.isDirectory());
 });
 
-/* Run main.js */
+// Run main.js
 $ node main.js
 
-/* Verify the Output */
+// Verify the Output
 Going to get file info!
 { 
    dev: 1792,
@@ -91,3 +91,33 @@ Going to get file info!
 Got file info successfully!
 isFile ? true
 isDirectory ? false
+
+/* Writing a File */
+// Create main,js
+var fs = require("fs");
+
+console.log("Going to write into existing file");
+fs.writeFile('input.txt', 'Simple Easy Learning!', function(err) {
+  if (err) {
+    return console.error(err);
+  }
+
+  console.log("Data written successfully!");
+  console.log("Let's read newly written data");
+
+  fs.readFile('input.txt', function (err, data) {
+    if (err) {
+      return console.error(err);
+    }
+    console.log("Asynchronous read: " + data.toString());
+  });
+});
+
+// Run main.js
+$ node main.js
+
+// Verify the Output
+Going to write into existing file
+Data written successfully!
+Let's read newly written data
+Asynchronous read: Simply Easy Learning!

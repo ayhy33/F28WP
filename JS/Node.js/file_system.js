@@ -31,3 +31,22 @@ Program Ended
 Asynchronous read: Tutorials Point is giving self learning content
 to teach the world in simple and easy way!!!!!
 
+/* Open a File */
+// Create main.js to open file input.txt for reading and writing
+var fs = require("fs");
+
+// Asynchronous - Opening File
+console.log("Going to open file!");
+fs.open('input.txt', 'r+', function (err, fd) {
+  if (err) {
+    return console.error(err);
+  }
+  console.log("File opened successfully!");
+});
+
+// Run main.js
+$ node main.js
+
+// Verify the output
+Going to open file!
+File opened successfully!
